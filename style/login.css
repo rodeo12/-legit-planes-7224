@@ -1,0 +1,89 @@
+#login{
+  width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+padding: 20px;
+font-size: 24px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ 
+ 
+.foot_login{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    position: relative;
+   
+    left: 20px;
+}
+#signup_popup_cancel{
+    background-color: white;
+    border: 0px;
+    position: relative;
+    left: 92.5%;
+    top: -14%;
+    font-size: 18px;
+    color: grey;
+    font-weight: 800;
+}
+#login_popup_cancel{
+    background-color: white;
+    border: 0px;
+    position: relative;
+    left: 10%;
+    top: -17%;
+    font-size: 18px;
+    color: grey;
+    font-weight: 800;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 22%;
+    margin-top: 15px;
+    font-size: 19px;
+    padding-left: 15px;
+}
+#the_login_button{
+    background-color: rgb(4,190,90);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    width: 240px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 27px;
+    margin-left: 31%;
+}
+#the_login_button:hover{
+    background-color: rgb(3, 150, 72);
+}
+#facebook_login{
+    background-color: rgb(59,89,152);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    width: 310px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 27px;
+    margin-left: 25.65%;
+    display: flex;
+}
+#facebook_login>span{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#facebook_login>img{
+    height: 85%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
