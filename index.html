@@ -42,27 +42,30 @@
               border: none;
               border-radius: 6px;
               color: white;
-            " class="button2">
+            " class="button2" onclick="openLogin()">
           Email
         </button>
       </div>
-      <p  id="openSingupModel">Sign Up</p>
+      <p style="cursor: pointer;" class="btn btn-open">Sign Up</p>
     </div>
   </div>
 
+ 
+
+
   <!---open singup--> 
-
+  <div class="overlay hidden"></div>
   <!---Signup-->
-  <div id="signupModel">
+  <div id="signupModel" class="modal hidden">
 
-    <div id="signup_popup" >
+    
       
-  <button id="signup_popup_cancel"  onclick="close_signup_popup()" >✕</button>
+  <button class="btn-close"   >✕</button>
   <img src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="" id="headimg">
   <div style="font-size: 21px; font-weight: 600; text-align: center;margin-top: 12px;">Join KindMeal For FREE Now</div>
   <p style="text-align: center;margin-top: 7px;">Please select the type of membership to proceed
   </p>   
-  <div id="card" onclick="signupform()">
+  <div class="card" id="firstCard" onclick="signupform()" >
     <img src="https://www.kindmeal.my/images/join_normal.png" alt="">
         <div class="box">
           <span>Food Lover</span>
@@ -70,28 +73,28 @@
           <span>Join FREE to enjoy yummy deals, share reviews & meet our community of compassionate food lovers</span>
         </div>
       </div>
-        <div id="card">
+        <div class="card"  id = "secondCard" onclick="signupform()">
           <img src="https://www.kindmeal.my/images/join_shop.png" alt="" style="margin-left: 40px;">
           <div class="box">
             <span>Restaurant / Shop Owner</span>
             <span>List your food outlet, create exciting vegetarian deals & showcase your delicious menu for FREE. Enjoy our yummy deals, share reviews & meet food lovers too.</span>
         </div>
-      </div>
-      <p class="foot_signup" onclick="open_login_popup()">Member Login</p>
+      </div style="display:flex">
+      <p class="foot_signup" >Member Login</p>
       <p class="foot_signup" style="left: 68%; top: -5px;" >Forgot password?</p>
     </div>
-  </div>
+ 
     
     
   <div id="nav">
-    <button class="button3">Home</button>
-    <button class="button3">Recipes</button>
-    <button class="button3">Share Recipe</button>
-    <button class="button3">KindMoments</button>
-    <button class="button3">Hot Picks</button>
-    <button class="button3">Help</button>
-    <button class="button3">Meal Deals</button>
-    <button class="button3">Articles</button>
+    <button class="button3" onclick="">Home</button>
+    <button class="button3" onclick="openMealPage()">Recipes</button>
+    <button class="button3" onclick="openMealPage()">Share Recipe</button>
+    <button class="button3" onclick="openMealPage()">KindMoments</button>
+    <button class="button3" onclick="openMealPage()">Hot Picks</button>
+    <button class="button3" onclick="openMealPage()">Help</button>
+    <button class="button3" onclick="openMealPage()">Meal Deals</button>
+    <button class="button3" onclick="openMealPage()">Articles</button>
   </div>
 
 <!----Slider-->
@@ -142,8 +145,8 @@
         <p  class="innerText"> Sick Baby Cow Headbutts His Bffs All Day Now</p>
       </div>
       <div>
-        <img src="https://external-xsp1-2.xx.fbcdn.net/emg1/v/t13/12307183933229490973?url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1024%2Fbranded_news%2F3162%2Fproduction%2F_128024621_aquadom-index-gettyimages-97934369.jpg&fb_obo=1&utld=co.uk&stp=c0.5000x0.5000f_dst-emg0_p576x576_q75&ccb=13-1&oh=06_AbGbbnjW9Vt0E2jLrnT6gyuVf85CaBdv6oBgNV6Vwrp8HQ&oe=639E2A5B&_nc_sid=834697" alt="error">
-        <p  class="innerText">Berlin''s Giant Aquadom Aquarium Containing 1,500 Fish Explo..</p>
+        <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/318915884_561186642153164_127441678623272126_n.jpg?stp=dst-jpg_s720x720&nc_cat=103&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=eQegN0-Nn9AAX9jGU4&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfCALD-ELyTP3JSSP5bGFCtqtBHbrfhIelx1IC8gVY9uxw&oe=63A1215C" alt="error">
+        <p  class="innerText">The Best Air Fryer Recipe</p>
       </div>
       <div>
         <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/283214530_476021257630109_5388539080951558766_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=_cs7zbisYbwAX9On0jy&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfA6KRaNipOYmCwdBX4v2YsciYROmnML-RfiAqFUrCXzFQ&oe=63A0854B" alt="error">
