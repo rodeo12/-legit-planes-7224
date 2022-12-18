@@ -1,9 +1,5 @@
   /* Navbar start */
-  *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-  }
+  
   #navbar {
     display: flex;
     justify-content: space-evenly;
@@ -144,6 +140,9 @@ margin-left: 32%;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
   }
+  .blue > p{
+    color:blue;
+  }
   .latestNews > div:first-child{
       display:flex;
     gap:20px;
@@ -153,6 +152,7 @@ margin-left: 32%;
       display:flex;
       gap:30px;
   }
+  
   .latestNews > div:last-child{
       display:grid;
       margin-top:10px;
@@ -241,6 +241,13 @@ margin-left: 32%;
     border:none;
     color:#ffffff;
   }
+  .lovely{
+    background-color:#ececec;
+  }
+  .lovely>img{
+    width:100%;
+    margin:auto;
+  }
   
 
 
@@ -254,6 +261,9 @@ margin-left: 32%;
     padding:10px 140px 0px 140px ;
   
   }
+  .innerFooter:hover{
+    cursor: pointer;
+    }
   .innerFooter:first-child {
     display: flex;
     gap: 20px;
